@@ -20,6 +20,7 @@ def main():
                 return
 
         player_ship.draw(screen)
+        player_ship.update(dt)
 
         #Update the screen
         pygame.display.flip()
